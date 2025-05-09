@@ -1,6 +1,5 @@
 import speech_recognition as sr
-import time # Gürültü ayarlaması sırasında beklemek için
-
+import time 
 def continuous_speech_to_text():
     recognizer = sr.Recognizer()
 

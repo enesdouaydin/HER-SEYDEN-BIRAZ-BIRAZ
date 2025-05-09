@@ -1,4 +1,7 @@
 # web scraping ile ses dosyalari otomatik olarak indirilmesi
+# bu script ile el lb sitesinde text to speech yapılıyor.
+# telıf ya da dava yememek ıcın lınkı kaldırdım ama lınk kısmında yazan yere dedıgım lınkı yapıstırırsanız lınke gırer
+# sıgn ın butonuna tıklamayı unutmusum ona da basmasınız gerek	
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -33,8 +36,8 @@ chrome_options.add_argument("--start-maximized")
 driver = webdriver.Chrome(options=chrome_options)
 wait = WebDriverWait(driver, 45)
 
-# --- Elevenlabs sitesine git ---
-driver.get("https://elevenlabs.io/app/speech-synthesis/text-to-speech")
+# --- el lb sıtesı lınkı ---
+driver.get("el lb linki speech to text kısmını alacaksınız.")
 print("Abi, abla, site açılıyor ve login ekranı bekleniyor...")
 time.sleep(5)
 
